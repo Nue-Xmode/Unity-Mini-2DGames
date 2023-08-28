@@ -1,2 +1,2 @@
 # Unity-Mini-Games
-unity练习用小游戏的项目集合
+unity练习用， 2D小游戏项目集合
