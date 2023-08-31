@@ -1,6 +1,9 @@
 using UnityEngine;
 
-public class Weapon : MonoBehaviour
+namespace MiniGames.Shotting
 {
-    public LineRenderer line;
+    public class Weapon : MonoBehaviour
+    {
+        public LineRenderer line;
+    }
 }

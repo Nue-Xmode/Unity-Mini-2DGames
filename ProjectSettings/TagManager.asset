@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Yellow
+  - Pink
+  - Blue
+  - Green
   layers:
   - Default
   - TransparentFX
@@ -43,4 +47,7 @@ TagManager:
     locked: 0
   - name: Item
     uniqueID: 3347554325
+    locked: 0
+  - name: Player
+    uniqueID: 1505882739
     locked: 0
