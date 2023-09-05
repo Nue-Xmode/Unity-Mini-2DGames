@@ -51,3 +51,6 @@ TagManager:
   - name: Player
     uniqueID: 1505882739
     locked: 0
+  - name: CardBack
+    uniqueID: 3255377655
+    locked: 0
