@@ -9,9 +9,9 @@ namespace MiniGames.CardGame
 
         private void Awake()
         {
-            CardList.Add(new Card(0, "Human", 1, 1, "普通的人类"));
-            CardList.Add(new Card(1, "Dragon", 7, 5, "普通的龙"));
-            CardList.Add(new Card(2, "Elf", 3, 2, "普通的精灵"));
+            CardList.Add(new Card(0, "Human", 1, 1, "a human"));
+            CardList.Add(new Card(1, "Dragon", 7, 5, "a dragon"));
+            CardList.Add(new Card(2, "Elf", 3, 2, "a elf"));
         }
     }
 }
