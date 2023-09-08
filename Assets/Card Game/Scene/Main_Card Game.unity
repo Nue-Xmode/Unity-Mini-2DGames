@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: diaplayId
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4604507511730674653, guid: 0625934a0836ba740bf4d4c2f63f17c2, type: 3}
+      propertyPath: displayId
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5340389785067640852, guid: 0625934a0836ba740bf4d4c2f63f17c2, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -331,6 +335,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4604507511730674653, guid: 0625934a0836ba740bf4d4c2f63f17c2, type: 3}
       propertyPath: diaplayId
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604507511730674653, guid: 0625934a0836ba740bf4d4c2f63f17c2, type: 3}
+      propertyPath: displayId
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5340389785067640852, guid: 0625934a0836ba740bf4d4c2f63f17c2, type: 3}
@@ -595,6 +603,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd9e11c87abd4484a858b7943d0f866a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spriteList:
+  - {fileID: 1771446180, guid: 91ece539279118a438c900dfb08582ed, type: 3}
+  - {fileID: -1819324105, guid: 91ece539279118a438c900dfb08582ed, type: 3}
+  - {fileID: 450093703, guid: 91ece539279118a438c900dfb08582ed, type: 3}
 --- !u!1 &1719969498
 GameObject:
   m_ObjectHideFlags: 0
