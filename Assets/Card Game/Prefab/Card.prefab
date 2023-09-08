@@ -1216,8 +1216,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6844226dfcd7afc449a640b06329ad29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  diaplayId: 0
+  displayId: 0
   nameText: {fileID: 5340389786862262226}
+  cardImage: {fileID: 5340389786960236879}
   costText: {fileID: 5340389785892709830}
   atkText: {fileID: 5340389785895824187}
   descriptionText: {fileID: 5340389785067640855}
@@ -1367,7 +1368,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1819324105, guid: 91ece539279118a438c900dfb08582ed, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

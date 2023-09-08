@@ -7,9 +7,10 @@ namespace MiniGames.CardGame
 {
     public class DisplayCard : MonoBehaviour
     {
-        public int diaplayId;
+        public int displayId;
 
         public Text nameText;
+        public Image cardImage;
         public Text costText;
         public Text atkText;
         public TextMeshProUGUI descriptionText;
@@ -24,10 +25,12 @@ namespace MiniGames.CardGame
         /// </summary>
         private void ShowCard()
         {
-            nameText.text = CardDatabase.CardList[diaplayId].name;
-            costText.text = CardDatabase.CardList[diaplayId].cost.ToString();
-            atkText.text = CardDatabase.CardList[diaplayId].atk.ToString();
-            descriptionText.text = CardDatabase.CardList[diaplayId].description;
+            nameText.text = CardDatabase.CardList[displayId].name;
+            costText.text = CardDatabase.CardList[displayId].cost.ToString();
+            atkText.text = CardDatabase.CardList[displayId].atk.ToString();
+            descriptionText.text = CardDatabase.CardList[displayId].description;
+
+            cardImage.sprite = CardDatabase.I.GetCardSprite(displayId);
         }
     }
 }
