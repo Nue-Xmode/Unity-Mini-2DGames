@@ -255,7 +255,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Example items_6
+      name: Demon
       rect:
         serializedVersion: 2
         x: 64
@@ -664,6 +664,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Demon: 510289901
       Dragon: -1819324105
       Elf: 450093703
       Example items_0: 676714594
@@ -686,7 +687,6 @@ TextureImporter:
       Example items_24: 634790958
       Example items_3: 1965922924
       Example items_4: 2014818861
-      Example items_6: 510289901
       Example items_8: 612940663
       Human: 1771446180
   spritePackingTag: 
