@@ -25,10 +25,12 @@ namespace MiniGames.CardGame
         /// </summary>
         private void ShowCard()
         {
-            nameText.text = CardDatabase.CardList[displayId].name;
-            costText.text = CardDatabase.CardList[displayId].cost.ToString();
-            atkText.text = CardDatabase.CardList[displayId].atk.ToString();
-            descriptionText.text = CardDatabase.CardList[displayId].description;
+            Card temp = CardDatabase.I.GetCardInfo(displayId);
+            
+            nameText.text = temp.name;
+            costText.text = temp.cost.ToString();
+            atkText.text = temp.atk.ToString();
+            descriptionText.text = temp.description;
 
             cardImage.sprite = CardDatabase.I.GetCardSprite(displayId);
         }
