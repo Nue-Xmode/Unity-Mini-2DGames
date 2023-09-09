@@ -39,5 +39,18 @@ namespace MiniGames.CardGame
 
             return newCard;
         }
+
+        /// <summary>
+        /// 设置卡牌数据
+        /// </summary>
+        /// <param name="card"></param>
+        public void SetCard(Card card)
+        {
+            id = card.id;
+            name = card.name;
+            cost = card.cost;
+            atk = card.atk;
+            description = card.description;
+        }
     }
 }
