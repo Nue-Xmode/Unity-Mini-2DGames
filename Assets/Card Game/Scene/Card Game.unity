@@ -324,7 +324,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Shuffle
 --- !u!222 &436439003
 CanvasRenderer:
   m_ObjectHideFlags: 0
