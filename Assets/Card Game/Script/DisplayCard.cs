@@ -11,6 +11,7 @@ namespace MiniGames.CardGame
 
         public Text nameText;
         public Image cardImage;
+        public Image cardBack;
         public Text costText;
         public Text atkText;
         public TextMeshProUGUI descriptionText;
@@ -18,6 +19,7 @@ namespace MiniGames.CardGame
         private void Update()
         {
             ShowCard();
+            TurnUp();
         }
 
         /// <summary>
@@ -33,6 +35,15 @@ namespace MiniGames.CardGame
             descriptionText.text = temp.description;
 
             cardImage.sprite = CardDatabase.I.GetCardSprite(displayId);
+        }
+
+        /// <summary>
+        /// 翻牌
+        /// </summary>
+        public void TurnUp()
+        {
+            if (Input.GetKeyDown(KeyCode.T))
+                cardBack.enabled = !cardBack.enabled;
         }
     }
 }

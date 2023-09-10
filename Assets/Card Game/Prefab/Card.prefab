@@ -1219,6 +1219,7 @@ MonoBehaviour:
   displayId: 0
   nameText: {fileID: 5340389786862262226}
   cardImage: {fileID: 5340389786960236879}
+  cardBack: {fileID: 5340389785045406091}
   costText: {fileID: 5340389785892709830}
   atkText: {fileID: 5340389785895824187}
   descriptionText: {fileID: 5340389785067640855}
