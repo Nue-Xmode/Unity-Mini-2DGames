@@ -8,17 +8,17 @@ namespace MiniGames
     public class PlayerDeck : MonoBehaviour
     {
         public List<Card> deck = new List<Card>(40);
+
+        [SerializeField] private DisplayCard firstCard;    //牌堆顶端的牌
         
-        // Start is called before the first frame update
-        void Start()
+        private void Start()
         {
             InitDeck();
         }
-
-        // Update is called once per frame
+        
         void Update()
         {
-
+            ShowFirstCardInDeck();
         }
 
         /// <summary>
@@ -30,6 +30,19 @@ namespace MiniGames
             {
                 int index = Random.Range(0, CardDatabase.CardCount);
                 deck[i] = CardDatabase.I.CreateCard(index);
+            }
+        }
+
+        /// <summary>
+        /// 显示牌堆顶端的牌
+        /// </summary>
+        private void ShowFirstCardInDeck()
+        {
+            int displayId = 0;
+            if (deck != null && firstCard != null)
+            {
+                displayId = deck[0].id;
+                firstCard.displayId = displayId;
             }
         }
     }
